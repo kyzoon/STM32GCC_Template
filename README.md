@@ -55,3 +55,11 @@ load
 c
 q
 ```
+## Use for another Project
+1. Change Makefile `TARGET` to yours
+2. Change stm32.jlink `loadfile` to yours
+3. Add *.c file name to Makefile `C_SOURCES`, and any other files you need
+4. For GDB, changed .vscode\launch.json `file /path/fireware.elf` to yours
+5. For Different Hardware, alse need change some configuration. For me is `STM32F103ZE`
+
+Enjoy !!!
