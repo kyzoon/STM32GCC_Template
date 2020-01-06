@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/app/*",
+                "${workspaceFolder}/bsp/*",
+                "${workspaceFolder}/core/*",
+                "${workspaceFolder}/middle/*",
+                "${workspaceFolder}/stdlib/inc/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/arm-none-eabi/include/c++/5.4.1/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/arm-none-eabi/include/c++/5.4.1/arm-none-eabi/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/arm-none-eabi/include/c++/5.4.1/backward/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/lib/gcc/arm-none-eabi/5.4.1/include/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/lib/gcc/arm-none-eabi/5.4.1/include-fixed/*",
+                "c:/program files (x86)/gnu tools arm embedded/5.4 2016q3/arm-none-eabi/include/*"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64"
+        }
+    ],
+    "version": 4
+}

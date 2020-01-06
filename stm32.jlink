@@ -1,0 +1,13 @@
+# On Windows 10
+# JLink CL 
+# Burn Fireware to Device
+
+si 1    # Select SWD Port
+speed 4000
+device STM32F103ZE
+r       # Reset target
+h       # Halt Target
+loadfile build/STM32_Template.hex 0x08000000      # Download file to Aim Address
+setpc 0x08000000    # Set PC Point
+g       # Go/Run
+q       # Quit

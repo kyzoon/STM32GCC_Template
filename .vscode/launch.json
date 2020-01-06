@@ -1,0 +1,31 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ARM GDB",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/${workspaceFolderBasename}.elf",
+            "cwd": "${workspaceFolder}",
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "arm-none-eabi-gdb.exe",
+            "setupCommands": [
+                {
+                    "text": "target remote localhost:2331",
+                },
+                {
+                    // "text": "file ${workspaceFolder}/build/${workspaceFolderBasename}.elf",
+                    "text": "file E:/aSTM32F10x/CM3/STM32_Template/build/STM32_Template.elf",
+                },
+                {
+                    "text": "load"
+                },
+            ],
+            "preLaunchTask": "build"
+        }
+    ]
+}
